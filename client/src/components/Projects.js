@@ -6,6 +6,8 @@ import aromaHubImage from '../static/images/aroma_hub.png';
 import busImage from '../static/images/bus.jpg';
 import trainingImage from '../static/images/traplaca.png';
 import spotifyImage from '../static/images/spotify.png';
+import formImage from '../static/images/multi step form.png';
+import chartImage from '../static/images/expense chart.png';
 
 
 const projects = [
@@ -22,6 +24,12 @@ const projects = [
     image: spotifyImage,
   },
   {
+    title: 'Multi Step Form',
+     description: 'Responsive multi-step form challenge with dynamic validation, smooth transitions, and a modern, mobile-friendly UI, built with HTML, CSS, and JavaScript for Frontend Mentor.',
+    link: 'https://multi-step-form-green-ten.vercel.app/',
+     image: formImage,
+   },
+  {
     title: 'Bus Management System',
     description: 'Developed a Bus Management System that allows users to search for routes and categories, such as daily bus, weekly bus, and AC bus.',
     link: 'https://github.com/AkankshaSinghK/Bus-Management-System',
@@ -33,23 +41,24 @@ const projects = [
     link: 'https://github.com/AkankshaSinghK/trapalaca-final',
     image: trainingImage,
   },
-  // {
-  //   title: 'Personal Portfolio',
-  //    description: 'A portfolio to showcase my skills achievements and know more about me.',
-  //   link: 'https://personal-portfolio-phi-six-40.vercel.app/',
-  //    image: portfolioImage,
-  //  },
+   {
+     title: 'Expense Chart',
+     description: 'The Expense Chart component visualizes and filters expenses interactively using React and Chart.js, with support for multiple chart types and responsive design.',
+    link: 'https://expense-chart-component-psi.vercel.app/',
+   image: chartImage,
+  },
+  
   // {
   //   title: 'Dine Out- Food ordering App',
   //   description: 'Online food ordering app.',
   //   link: 'https://github.com/AkankshaSinghK/dine-out-flutter-',
-  //   image: foodImage,
+  //   image: trainingImage,
   // },
   // {
   //   title: 'Webpage using HTML CSS',
   //   description: 'Myntra homepage with full responsiveness.',
   //   link: 'https://github.com/AkankshaSinghK/GITHUB_AKANKSHA_SINGH_SCIFOR/tree/main/Project/Mini_Project_1',
-  //   image: shopImage,
+  //   image: trainingImage,
   // },
 ];
 
