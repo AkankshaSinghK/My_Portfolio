@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Swal from 'sweetalert2';
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const formInitialDetails = {
@@ -27,26 +27,26 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/contact",
+        "https://my-portfolio-server-opal-two.vercel.app/api/contact",
         formDetails
       );
 
       setStatus({ success: true, message: "Message sent successfully!" });
-     Swal.fire({
-      title: 'Success!',
-      text: 'Message sent successfully!',
-      icon: 'success',
-    });
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfully!",
+        icon: "success",
+      });
     } catch (error) {
       setStatus({
         success: false,
         message: "Something went wrong. Please try again later.",
       });
-     Swal.fire({
-      title: 'Error!',
-      text: 'Something went wrong. Please try again later.',
-      icon: 'error',
-    });
+      Swal.fire({
+        title: "Error!",
+        text: "Something went wrong. Please try again later.",
+        icon: "error",
+      });
     }
     setButtonText("Send");
     setFormDetails(formInitialDetails);
