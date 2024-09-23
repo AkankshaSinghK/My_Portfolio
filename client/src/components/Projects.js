@@ -1,53 +1,65 @@
-
-import React from 'react';
+import React from "react";
 
 // Import images
-import aromaHubImage from '../static/images/aroma_hub.png';
-import busImage from '../static/images/bus.jpg';
-import trainingImage from '../static/images/traplaca.png';
-import spotifyImage from '../static/images/spotify.png';
-import formImage from '../static/images/multi step form.png';
-import chartImage from '../static/images/expense chart.png';
-
+import aromaHubImage from "../static/images/aroma_hub.png";
+import busImage from "../static/images/bus.jpg";
+import trainingImage from "../static/images/traplaca.png";
+import spotifyImage from "../static/images/spotify.png";
+import formImage from "../static/images/multi step form.png";
+import chartImage from "../static/images/expense chart.png";
+import surveyImage from "../static/images/surveyapp.png";
 
 const projects = [
   {
-    title: 'Aroma Hub-eCommerce Platform',
-    description: 'AROMA HUB, a sophisticated eCommerce platform for exquisite perfumes, using MERN (MongoDB, Express.js, React.js, Node.js) stack.',
-    link: 'https://github.com/AkankshaSinghK/production-mern-aromaHub-eCommerce',
+    title: "Aroma Hub-eCommerce Platform",
+    description:
+      "AROMA HUB, a sophisticated eCommerce platform for exquisite perfumes, using MERN (MongoDB, Express.js, React.js, Node.js) stack.",
+    link: "https://github.com/AkankshaSinghK/production-mern-aromaHub-eCommerce",
     image: aromaHubImage,
   },
   {
-    title: 'portfolio Clone',
-    description: 'Developed a Spotify Clone using MERN Stack with core functionalities like Authentication, Player Controls, Playlist Creation and Search functionality',
-    link: 'https://github.com/AkankshaSinghK/Spotify_Clone',
+    title: "Spotify Clone",
+    description:
+      "Developed a Spotify Clone using MERN Stack with core functionalities like Authentication, Player Controls, Playlist Creation and Search functionality",
+    link: "http://prod-spotify-clone.onrender.com/",
     image: spotifyImage,
   },
   {
-    title: 'Multi Step Form',
-     description: 'Responsive multi-step form challenge with dynamic validation, smooth transitions, and a modern, mobile-friendly UI, built with HTML, CSS, and JavaScript for Frontend Mentor.',
-    link: 'https://multi-step-form-green-ten.vercel.app/',
-     image: formImage,
-   },
-  {
-    title: 'Bus Management System',
-    description: 'Developed a Bus Management System that allows users to search for routes and categories, such as daily bus, weekly bus, and AC bus.',
-    link: 'https://github.com/AkankshaSinghK/Bus-Management-System',
-    image: busImage,
+    title: "Multi Step Form",
+    description:
+      "Responsive multi-step form challenge with dynamic validation, smooth transitions, and a modern, mobile-friendly UI, built with HTML, CSS, and JavaScript for Frontend Mentor.",
+    link: "https://multi-step-form-green-ten.vercel.app/",
+    image: formImage,
   },
+ 
   {
-    title: 'Traplaca- A guide to training, placement and career.',
-    description: 'A platform connecting job seekers and company recruiters.',
-    link: 'https://github.com/AkankshaSinghK/trapalaca-final',
+    title: "Traplaca- A guide to training, placement and career.",
+    description: "A platform connecting job seekers and company recruiters.",
+    link: "https://github.com/AkankshaSinghK/trapalaca-final",
     image: trainingImage,
   },
-   {
-     title: 'Expense Chart',
-     description: 'The Expense Chart component visualizes and filters expenses interactively using React and Chart.js, with support for multiple chart types and responsive design.',
-    link: 'https://expense-chart-component-psi.vercel.app/',
-   image: chartImage,
+  {
+    title: "Survey App",
+    description:
+      "A React.js Survey App with a dynamic questionnaire, question navigation, answer storage, session tracking, and completion confirmation, ending with a thank you screen.",
+    link: "https://survey-app-nu-six.vercel.app/",
+    image: surveyImage,
   },
-  
+  {
+    title: "Expense Chart",
+    description:
+      "The Expense Chart component visualizes and filters expenses interactively using React and Chart.js, with support for multiple chart types and responsive design.",
+    link: "https://expense-chart-component-psi.vercel.app/",
+    image: chartImage,
+  },
+  {
+    title: "Bus Management System",
+    description:
+      "Developed a Bus Management System that allows users to search for routes and categories, such as daily bus, weekly bus, and AC bus.",
+    link: "https://github.com/AkankshaSinghK/Bus-Management-System",
+    image: busImage,
+  },
+
   // {
   //   title: 'Dine Out- Food ordering App',
   //   description: 'Online food ordering app.',
@@ -65,7 +77,9 @@ const projects = [
 const Projects = () => {
   return (
     <section className="project" id="projects">
-      <h2 className="heading">My <span>Projects</span></h2>
+      <h2 className="heading">
+        My <span>Projects</span>
+      </h2>
       <div className="project-container">
         {projects.map((proj, index) => (
           <div className="project-box" key={index}>
