@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import initializeScrollReveal from "../utils/scrollReveal";
 import profileImage from "../static/images/p1.jpeg";
-import resume from "../static/assets/Akanksha Singh - NewResume.pdf";
+import resume from "../static/assets/AkankshaSinghResume.pdf";
 import TypewriterEffect from "../utils/TypewriterEffect";
 
 const Home = () => {

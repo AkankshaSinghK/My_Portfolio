@@ -65,8 +65,88 @@ const Certificates = () => {
   return (
     <section className="certificate" id="certificate">
       <h2 className="heading">
-        My <span>Certificates</span>
+        My <span>Certificates and Achievements</span>
       </h2>
+      <h3
+        style={{
+          textAlign: "center",
+          fontSize: "30px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        GSSOC(24) Badges 🪶
+      </h3>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "10px",
+          justifyContent: "center",
+          marginBottom: "20px",
+        }}
+        align="center"
+      >
+        <a href="https://gssoc.girlscript.tech/leaderboard">
+          <img
+            src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png"
+            width="100px"
+            height="100px"
+            alt="Postman Badge"
+          />
+          <img
+            src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/1.png"
+            width="100px"
+            height="100px"
+            alt="Badge 1"
+          />
+          <img
+            src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/2.png"
+            width="100px"
+            height="100px"
+            alt="Badge 2"
+          />
+          <img
+            src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/3.png"
+            width="100px"
+            height="100px"
+            alt="Badge 3"
+          />
+          <img
+            src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/4.png"
+            width="100px"
+            height="100px"
+            alt="Badge 4"
+          />
+          <img
+            src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/5.png"
+            width="100px"
+            height="100px"
+            alt="Badge 5"
+          />
+        </a>
+      </div>
+
+      <div>
+        <h3 style={{ textAlign: "center", fontSize: "30px",
+          fontWeight: "bold",
+          marginBottom: "20px", }}>HacktoberFest Badges 🎖️</h3>
+        <a
+          href="https://holopin.io/@akankshasinghk"
+          style={{ marginBottom: '20px' }}
+        >
+          <img
+            src="https://holopin.me/akankshasinghk"
+            alt="@akankshasinghk's Holopin board"
+            style={{
+              height:'auto',
+              width:'100%',
+              marginBottom: '20px'
+            }}
+          />
+        </a>
+      </div>
+
       <div className="certificate-container">
         {certificates.map((cert, index) => (
           <div className="certificate-box" key={index}>
