@@ -2,7 +2,6 @@ import React from "react";
 
 // Import images
 import aromaHubImage from "../static/images/aroma_hub.png";
-import busImage from "../static/images/bus.jpg";
 import trainingImage from "../static/images/traplaca.png";
 import spotifyImage from "../static/images/spotify.png";
 import formImage from "../static/images/multi step form.png";
@@ -52,20 +51,20 @@ const projects = [
     link: "https://expense-chart-component-psi.vercel.app/",
     image: chartImage,
   },
-  {
-    title: "Bus Management System",
-    description:
-      "Developed a Bus Management System that allows users to search for routes and categories, such as daily bus, weekly bus, and AC bus.",
-    link: "https://github.com/AkankshaSinghK/Bus-Management-System",
-    image: busImage,
-  },
-
   // {
+  //   title: "Bus Management System",
+  //   description:
+  //     "Developed a Bus Management System that allows users to search for routes and categories, such as daily bus, weekly bus, and AC bus.",
+  //   link: "https://github.com/AkankshaSinghK/Bus-Management-System",
+  //   image: busImage,
+  // },
+
+  //  {
   //   title: 'Dine Out- Food ordering App',
   //   description: 'Online food ordering app.',
-  //   link: 'https://github.com/AkankshaSinghK/dine-out-flutter-',
-  //   image: trainingImage,
-  // },
+  //  link: 'https://github.com/AkankshaSinghK/dine-out-flutter-',
+  //    image: trainingImage,
+  //  },
   // {
   //   title: 'Webpage using HTML CSS',
   //   description: 'Myntra homepage with full responsiveness.',

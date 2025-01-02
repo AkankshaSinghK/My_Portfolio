@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import initializeScrollReveal from "../utils/scrollReveal";
 import profileImage from "../static/images/p1.jpeg";
-import resume from "../static/assets/AkankshaSinghResume.pdf";
+import resume from "../static/assets/Akanksha-Singh-Dev.pdf";
 import TypewriterEffect from "../utils/TypewriterEffect";
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
             <i className="bx bxl-github" />
           </a>
         </div>
-        <a href={resume} download="Akanksha Singh - Resume.pdf" className="btn">
+        <a href={resume} download="Akanksha-Singh-Dev.pdf" className="btn">
           Download CV
         </a>
       </div>

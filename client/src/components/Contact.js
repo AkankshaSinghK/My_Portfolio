@@ -93,6 +93,8 @@ const Contact = () => {
             required
           />
         </div>
+        
+        
         <textarea
           value={formDetails.message}
           onChange={(e) => onFormUpdate("message", e.target.value)}
